@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    transition: ease-in 1s ;
+    
+}
+.FirstPartContain {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(BackGround/books.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+    color: seashell;
+
+}
+.Text3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70vh;
+    z-index: -1;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(BackGround/545445_wall-murals-by-pickawall_5591x3543_h.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Text3 h2{
+    width: 600px;
+    height: 100px;
+    margin: 100px;
+    font-size: 45px;
+    text-transform: capitalize;
+    padding-top: 45px;
+    margin-bottom: 45px;
+
+}
+#btnn , #bttn {
+    position: relative;
+    color: white;
+    background-color: rgba(15, 15, 15, 0.5);
+    font-size: 20px;
+    left: 105px;
+    bottom: 55px;
+    padding: 15px 50px;
+    outline: none;
+    border-radius: 80px;
+    cursor: pointer;
+
+}
+.Text4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(BackGround/books-shelf-graffiti-art-4k_1536098329.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+
+}
+.Text4 h2 {
+    width: 600px;
+    height: 100px;
+    margin: 100px;
+    font-size: 45px;
+    text-transform: capitalize;
+    padding-top: 45px;
+    margin-bottom: 45px;
+}
+#bttnn{
+    position: relative;
+    color: white;
+    background-color: rgba(15, 15, 15, 0.5);
+    font-size: 20px;
+    left: 105px;
+    bottom: 55px;
+    padding: 15px 50px;
+    outline: none;
+    border-radius: 80px;
+    cursor: pointer;
+}
+.FirstPartContain ul{
+    display: flex;
+    justify-content: right;
+    margin: 50px;
+    margin-right: 250px;
+   
+}
+.FirstPartContain ul li{
+    display: flex;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.FirstPartContain ul li a{
+    color: white;
+}
+i{
+    position: relative;
+    left: 1470px ;
+    top: -70px;
+    cursor: pointer;
+}
+.Text1_Container{
+   position: absolute;
+   top: 33px;
+   left: 45px;
+   color: seashell;
+
+}
+.Text2_Container{
+
+    min-width: 25% ;
+    min-height: 300px;
+    position: relative;
+    top: -100px;
+    margin: 150px;
+    color: seashell;
+
+}
+.Text2_Container h1{
+    font-size: 75px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.Text2_Container dfn{
+    text-transform: initial;
+    font-family: initial;
+}
+.Text2_Container .btn2{
+    color: white;
+    background-color: rgba(15, 15, 15, 0.5);
+    font-size: 20px;
+    margin-top: 25px;
+    padding: 15px 50px;
+    outline: none;
+    border-radius: 80px;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color:black;
+}
+.Main_Search{
+    
+    background-color: #E0ECE4;
+    position: absolute;
+    width: 95%;
+    height: 80px;
+    left: 35px;
+    display: flex;
+    justify-content: left;
+    top:540px ;
+    padding-top: 20px;
+}
+input{
+   padding: 18px 40px 18px 40px;
+    margin-left: 80px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 80px;
+    background-color: #433520;
+    color: seashell;
+
+}
+.Main_Search #btn{
+    position: relative;
+    font-size: 18px;
+    bottom: 60px;
+    left: 1150px;
+    padding: 18px 65px 18px 65px;
+    border-radius: 80px;
+    cursor: pointer;
+    outline: none;
+    background-color:#595260 ;
+    color: seashell;
+
+}
+.AllBooks{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E0ECE4;
+    width: 95%;
+    left: 35px;
+    top: 700px;
+}
+.AllBooks h2{
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: initial;
+}
+.Books{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-items: center;
+    margin-left:100px ;
+    
+}
+.First_img,.Second_img,.Third_img,.Forth_img,.Fifth_img,.six_img,.sventh_img,.eight_img,.nine_img{
+    width: 350px;
+    border-radius: 5%;
+    background-color: white;
+    outline: none;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 25px;
+}
+/*#btn11,#btn13,#btn15,#btn17,#btn19,#btn21,#btn23,#btn25,#btn27{
+    position: relative;
+    left: 10px;
+    font-size: 15px;
+    padding: 10px 25px 10px 25px;
+    outline: none;
+    background-color: white;
+    border-top-left-radius:80px;
+    border-bottom-left-radius:80px;
+    
+}*/
+.btn11{
+    position: relative;
+    left: 10px;
+    font-size: 15px;
+    padding: 8px 25px 8px 25px;
+    outline: none;
+    background-color: white;
+    border-top-left-radius:80px;
+    border-bottom-left-radius:80px;
+}
+
+#btn12,#btn14,#btn16,#btn18,#btn20,#btn22,#btn24,#btn26,#btn28{
+    font-size: 15px;
+    padding: 10px 25px 10px 25px;
+    outline: none;
+    background-color: white;
+    border-top-right-radius:80px;
+    border-bottom-right-radius:80px;
+}
+.DataBooks1,.DataBooks2,.DataBooks3,.DataBooks4,.DataBooks5,.DataBooks6,.DataBooks7,.DataBooks8,.DataBooks9{
+    position: relative;
+    transition: all;
+    transition-duration: 0.5s;
+    visibility: hidden;
+    right: 50px;
+}
+.btnControlls .dot1,.dot2,.dot3{
+  position: relative;
+  left: 700px;
+  top: 300px;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: 111;
+}
+.Text11 ,.Text3,.Text4{
+    animation: ease-in-out;
+    animation-duration: 1s;
+}
+
+  
