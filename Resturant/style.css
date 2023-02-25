@@ -1,0 +1,58 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.BackGround .list li{
+    float: left;
+    width: 60px;
+    padding: 10px 10px 10px 10px;
+    margin: 20px;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.BackGround{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Type/1520972863-pork-chop-vertical.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.Containt{
+    text-align: center;
+    margin-left:490px ;
+    margin-top: 300px;
+    width: 35%;
+    height: 200px;
+}
+button{
+    width: 30%;
+    padding: 20px 20px;
+    background-color: slateblue;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+}
+.btn{
+    background-color: white;
+}
+p{
+    size: 40px;
+    color: white;
+    
+}
+.Containt h1{
+    font-size: 45px;
+    color: white;
+}
