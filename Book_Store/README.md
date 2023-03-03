@@ -1,4 +1,3 @@
 # One Padge Of Book Store
-Reviewing the available books with dynamic background ,
+Reviewing the available books with dynamic background
 and dynamic Cart
-"# Web_Development" 
